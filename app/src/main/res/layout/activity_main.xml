@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/floor"
+    tools:context="com.example.mddeloarhossain.spinbottlegame.MainActivity">
+
+    <ImageView
+        android:id="@+id/bottle"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:onClick="spinBottle"
+        android:src="@drawable/bottle" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_button"
+        android:drawableLeft="@drawable/dice"
+        android:drawableRight="@drawable/ic_play"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="Play Dice Roller"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#f5f6fa"
+        android:onClick="playDiceRoller"
+        />
+
+</RelativeLayout>
